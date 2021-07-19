@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title> June test </title>
+	
+	<link rel="stylesheet" href="css/contraste-negativo.css">
+	<link rel="stylesheet" href="css/grayscale.css">
+	
+	<script src="js/contrast.js"></script>
+	<script src="js/grayscale.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/tamanho-fonte.js"></script>
+
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	
+	<style>
+	  df-messenger {
+	   --df-messenger-icon: logo-june.png;
+	   --df-messenger-bot-message: black;
+	   --df-messenger-button-titlebar-color: #2D076C;
+	   --df-messenger-chat-background-color: #fafafa;
+	   --df-messenger-font-color: white;
+	   --df-messenger-send-icon: #878fac;
+	   --df-messenger-user-message: #8B0000;
+	  }
+	</style>
+
+</head>
+
+<body class="acessibilidade">
+	
+	<!-- chatbot-->
+		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+			<df-messenger
+			  wait-open="WELCOME"
+			  chat-icon="logo-june.png"
+			  chat-title="June"
+			  agent-id="236854da-5649-4d8d-9f28-92e2c1fe65b0"
+			  language-code="pt-br">
+			</df-messenger>
+	<!-- fim chatbot-->
+	
+	<!-- Contraste negativo -->
+		<li>
+			<a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Contraste negativo </a>
+		</li>
+	<!-- fim contraste  negativo -->
+
+	
+	<!-- grayscale-->
+	    <li>
+			<a href="#gray" id="gray" accesskey="3" onclick="window.toggleGray()" onkeydown="window.toggleGray()">Grayscale </a>
+		</li>
+	<!-- fim grayscale -->
+	
+
+	<!-- Botões de Acessibilidade -->
+		<button onClick="fonte('a');">A+</button> <!-- Botão + -->
+		<button onClick="fonte('d');">A-</button> <!-- Botão - -->
+	<!-- Fim Botões de Acessibilidade -->
+	
+	<h1> testete </h1>
+	<h4> testetrkrkirfkirf</h4>
+
+
+		  
+</body>
+
+</html>

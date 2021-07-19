@@ -1,0 +1,72 @@
+.gray,
+.gray nav,
+.gray div,
+.gray li,
+.gray ol,
+.gray header,
+.gray footer,
+.gray section,
+.gray main,
+.gray aside,
+.gray article {
+    background: #4F4F4F !important;
+    color: #DCDCDC !important;
+}
+
+.gray h1,
+.gray h2,
+.gray h3,
+.gray h4,
+.gray h5,
+.gray h6,
+.gray p,
+.gray label,
+.gray strong,
+.gray em,
+.gray cite,
+.gray q,
+.gray i,
+.gray b,
+.gray u,
+.gray span {
+    color: #DCDCDC !important;
+}
+
+.gray a{
+    color: #A9A9A9 !important;
+}
+
+.gray button,
+.gray input[type=button],
+.gray input[type=reset],
+.gray input[type=submit] {
+    background: #4F4F4F !important;
+    color: #A9A9A9 !important;
+    border: none !important;
+}
+
+.gray img.on-gray-force-gray {
+    filter: grayscale(100%) gray(120%);
+}
+
+.gray img.on-gray-force-white {
+    filter: brightness(0) invert(1);
+}
+
+.gray input[type=text],
+.gray input[type=password],
+.gray input[type=url],
+.gray input[type=search],
+.gray input[type=email],
+.gray input[type=tel],
+.gray input[type=date],
+.gray input[type=month],
+.gray input[type=week],
+.gray input[type=datetime],
+.gray input[type=datetime-local],
+.gray textarea,
+.gray input[type=number] {
+    background: #4F4F4F !important;
+    border: 1px solid #DCDCDC !important;
+    color: #DCDCDC !important;
+}
